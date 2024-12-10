@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Centraliza na tela */
+    background-color: #0015ff; /* Fundo escuro */
+}
+
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px; /* Espaço entre os <h1> */
+}
+
+h1 {
+    margin: 0;
+    font-size: 5rem;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    font-family: fantasy;
+}
+
+p {
+    margin: 0;
+    font-size: 5rem;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    font-family: fantasy;
+}
