@@ -8,12 +8,28 @@ body {
     background-color: #0015ff; /* Fundo escuro */
 }
 
+#count-home {
+    color: #ff4757; /* Vermelho para o número */
+    font-size: 120px; /* Tamanho grande */
+    font-family: 'DSEG7Classic-Regular', sans-serif; /* Fonte estilo 7 segmentos */
+    text-shadow: 0 0 10px #ff4757; /* Brilho suave */
+}
+
+#count-guest {
+    color: #ff4757; /* Vermelho para o número */
+    font-size: 120px; /* Tamanho grande */
+    font-family: 'DSEG7Classic-Regular', sans-serif; /* Fonte estilo 7 segmentos */
+    text-shadow: 0 0 10px #ff4757; /* Brilho suave */
+}
 
 .scoreboard {
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 200px; /* Espaço entre os <h1> */
+    border-radius: 10px;
+    padding: 20px;
 }
 
 h1 {
@@ -33,3 +49,45 @@ p {
     text-transform: uppercase;
     font-family: fantasy;
 }
+
+.score-box {
+    background-color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+#increment-home {
+    background-color: transparent; /* Fundo transparente */
+    color: white; /* Cor vermelha */
+    border: 2px solid white; /* Borda vermelha */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px; /* Tamanho do botão */
+    border-radius: 8px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor em forma de mão */
+    text-transform: uppercase; /* Texto em maiúsculo */
+    transition: all 0.3s ease; /* Animação suave */
+}
+
+#increment-guest {
+    background-color: transparent; /* Fundo transparente */
+    color: white; /* Cor vermelha */
+    border: 2px solid white; /* Borda vermelha */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px; /* Tamanho do botão */
+    border-radius: 8px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor em forma de mão */
+    text-transform: uppercase; /* Texto em maiúsculo */
+    transition: all 0.3s ease; /* Animação suave */
+}
+
+/* Adicionando a fonte diretamente via CDN */
+@import url('https://fonts.cdnfonts.com/css/dseg7-classic');
